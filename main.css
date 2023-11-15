@@ -1,8 +1,7 @@
-* {
-    background-color: rgb(239, 234, 221);
-}
+
 body {
     font-family: 'Mate', serif;
+    background-color: rgb(236, 225, 209);
 }
 
 p.introduction {
@@ -16,18 +15,23 @@ p {
 }
 
 h1.LargeHead {
-    font-family: 'Cinzel Decorative', serif;  
+    font-family: 'Cinzel Decorative', serif; 
+    background-color: rgb(68, 47, 47);
+    color: rgb(168, 129, 75); 
 }
 
 h1 {
     font-family: 'Unna', serif;
     font-size: 2.75em;
+    color: rgb(50, 46, 45);
+    background-color: rgb(209, 191, 161);
 }
 
 
 h2 {
     font-family: 'Unna', serif;
     font-size: 1.9em;
+    color: rgb(50, 46, 45);
 }
 
 h3 {
@@ -47,10 +51,25 @@ nav {
     font-family: 'Mate SC', serif;
     letter-spacing: .05em;
     line-height: 1.2em;
+    color: white;
+    background-color: rgb(50, 46, 45);
+    font-variant-caps: all-small-caps;
 }
 
 figcaption {
     font-family: 'Mate SC', serif;
+}
+main {
+    background-color: rgb(251, 243, 225);
+}
+aside {
+    background-color: rgb(227, 213, 180);
+}
+
+a.mainNav {
+    color: antiquewhite;
+    text-decoration: none;
+    padding: .5em;
 }
 
 
