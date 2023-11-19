@@ -1,37 +1,58 @@
-
+* {
+    margin: 0%;
+}
 body {
     font-family: 'Mate', serif;
-    background-color: rgb(236, 225, 209);
+    background-color: rgb(236, 225, 209);    
 }
+/* body styles /////*/
 
-p.introduction {
-    font-family: 'Unna', serif;
-    font-weight: 400;
-    font-size: 1.5em
-}
+
 p {
     font-family: 'Mate', serif;
     line-height: 1.3em;
+    margin: 0 90px 10px;
+    padding: 0 0 0 0;
+}
+p.introduction {
+    font-family: 'Unna', serif;
+    font-weight: 400;
+    font-size: 22px;
+    padding: 30px 0;
+}
+p.normal {
+
+}
+main {
+
+}
+aside {
+    background-color: rgb(227, 213, 180);
 }
 
+/* heading styles /////*/
 h1.LargeHead {
     font-family: 'Cinzel Decorative', serif; 
-    background-color: rgb(68, 47, 47);
-    color: rgb(168, 129, 75); 
+    font-size: 2em;
+    background-color: rgba(68, 47, 47, .85);
+    color: rgb(255, 246, 234); 
+    padding: 40px 90px 5px;
 }
 
 h1 {
     font-family: 'Unna', serif;
     font-size: 2.75em;
     color: rgb(50, 46, 45);
-    background-color: rgb(209, 191, 161);
+    background-color: rgba(209, 191, 161, 0.608);
+    padding: 50px 90px 10px
+    
 }
-
 
 h2 {
     font-family: 'Unna', serif;
     font-size: 1.9em;
     color: rgb(50, 46, 45);
+    padding: 10px 90px 10px
 }
 
 h3 {
@@ -39,6 +60,7 @@ h3 {
     letter-spacing: .07em;
     text-transform: uppercase;
     font-size: .95em;
+    padding: 10px 90px 10px
 }
 
 h4 {
@@ -47,29 +69,58 @@ h4 {
     font-style: italic;
 }
 
+/* navigation styles/////// */
+
 nav {
     font-family: 'Mate SC', serif;
-    letter-spacing: .05em;
-    line-height: 1.2em;
+    font-size: 1em;
+    letter-spacing: .1em;
+    line-height: 1em;
     color: white;
-    background-color: rgb(50, 46, 45);
+    background-color: rgb(68, 47, 47);
     font-variant-caps: all-small-caps;
-}
+    padding-left: 90px;
+    padding-top: 5px;
+    height: 30px;
+    border-top: dashed rgb(162, 88, 48);
+    border-bottom: dashed rgb(162, 88, 48);
 
-figcaption {
-    font-family: 'Mate SC', serif;
-}
-main {
-    background-color: rgb(251, 243, 225);
-}
-aside {
-    background-color: rgb(227, 213, 180);
 }
 
 a.mainNav {
     color: antiquewhite;
     text-decoration: none;
-    padding: .5em;
+    padding: 7px 10px 11px 10px;
+    border-left: solid 1px rgb(162, 88, 48);
+    box-shadow: 0 0 2;
 }
+
+figcaption {
+    font-family: 'Mate SC', serif;
+}
+
+#homeHeaderImage {
+    height: 500px;
+    background-image: url(./IMAGES/Destruction_of_Leviathan@0.33x.jpg), url(./IMAGES/Hokusai_Dragon@0.25x.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%, 63%;
+    background-position-y: 5%, 0%;
+    background-position-x: right, left;
+}
+
+#childHeaderImage_myth {
+    height: 350px;
+    background-image: url(./IMAGES/spinophorosaurus_BW@0.5x.jpg);
+    background-position: center center;
+
+}
+
+
+.Lead-in {
+    font-family: 'Mate SC', serif;
+}
+
+      
+
 
 
