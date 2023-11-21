@@ -3,7 +3,11 @@
 }
 body {
     font-family: 'Mate', serif;
-    background-color: rgb(236, 225, 209);    
+    background-color:  rgb(249, 240, 228)
+    ;    
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fcf4e8+0,dbcca2+40,b2926e+100&1+0,0.14+100 */
+background: linear-gradient(to bottom,  rgba(252,244,232,1) 0%,rgba(219,204,162,0.66) 40%,rgba(178,146,110,0.14) 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
 }
 /* body styles /////*/
 
@@ -20,14 +24,27 @@ p.introduction {
     font-size: 22px;
     padding: 30px 0;
 }
-p.normal {
 
+.Lead-in {
+    font-family: 'Mate SC', serif;
 }
-main {
 
+figcaption {
+    font-family: 'Mate SC', serif;
 }
+
 aside {
-    background-color: rgb(227, 213, 180);
+    background-color: rgb(242, 224, 199);
+    background: ;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fcf4e8+0,dbcca2+40,b2926e+100&1+0,0.14+100 */
+background: linear-gradient(to right,  rgba(252,244,232,1) 0%,rgba(219,204,162,0.66) 40%,rgba(178,146,110,0.14) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
+}
+
+a {
+    text-decoration: none;
+
 }
 
 /* heading styles /////*/
@@ -72,32 +89,30 @@ h4 {
 /* navigation styles/////// */
 
 nav {
+   
+    background-color: rgb(68, 47, 47);
+    font-variant-caps: all-small-caps;
+    padding-left: 90px;
+    height: 30px;
+    border-top: 1px dashed rgb(162, 88, 48);
+    border-bottom: 1px dashed rgb(162, 88, 48);
+
+}
+td .mainNav {
     font-family: 'Mate SC', serif;
     font-size: 1em;
     letter-spacing: .1em;
     line-height: 1em;
-    color: white;
-    background-color: rgb(68, 47, 47);
-    font-variant-caps: all-small-caps;
-    padding-left: 90px;
-    padding-top: 5px;
-    height: 30px;
-    border-top: dashed rgb(162, 88, 48);
-    border-bottom: dashed rgb(162, 88, 48);
-
-}
-
-a.mainNav {
-    color: antiquewhite;
     text-decoration: none;
-    padding: 7px 10px 11px 10px;
-    border-left: solid 1px rgb(162, 88, 48);
-    box-shadow: 0 0 2;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 1px dashed rgb(162, 88, 48);
 }
 
-figcaption {
-    font-family: 'Mate SC', serif;
-}
+
+/* image and background styles/////// */
+
 
 #homeHeaderImage {
     height: 500px;
@@ -113,14 +128,38 @@ figcaption {
     background-image: url(./IMAGES/spinophorosaurus_BW@0.5x.jpg);
     background-position: center center;
 
+
 }
 
+/* bullet /////*/
 
-.Lead-in {
-    font-family: 'Mate SC', serif;
+#arrow {
+    
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    border: solid 20px transparent;
+    border-left-color: rgb(123, 13, 13);
+
 }
 
-      
+#funCircle {
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px;
+    border-color: black red blue rgb(101, 161, 10);
+    border-radius: 20px;
+}
+
+#halfCircle {
+    overflow: hidden;
+    width: 10px;
+    height: 0;
+    border: solid 5px black;
+    border-radius: 10px 10px 0 0;
+}
 
 
 
